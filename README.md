@@ -6,6 +6,9 @@ A Laravel integration for the package [php-mattermost-driver][4].
 
 Please referer to the [php-mattermost-driver][4] package for further information on using this application.
 
+## Requirements
+Laravel 5
+
 ## Installation
 ### Composer
 The best way to install php-mattermost-driver is to use Composer:
@@ -15,6 +18,15 @@ composer require gnello/laravel-mattermost-driver
 ```
 
 Read more about how to install and use Composer on your local machine [here][3].
+
+After installation launch the command:
+```
+ php artisan vendor:publish
+```
+to publish the configuration file. You'll find it at config/mattermost.php
+
+## Configuration
+Edit the file `config/mattermost.php` as you prefer.
 
 ## Usage
 
