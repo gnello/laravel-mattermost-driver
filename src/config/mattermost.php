@@ -41,7 +41,7 @@ return [
     'servers' => [
 
         'default' => [
-            'host' => env('MATTERMOST_HOST', 'https://example.com'),
+            'host' => env('MATTERMOST_HOST', 'localhost'),
             'login' => env('MATTERMOST_LOGIN', 'gnello'),
             'password' => env('MATTERMOST_PASSWORD', '1234'),
             'guzzle' => []
