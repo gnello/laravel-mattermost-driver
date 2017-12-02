@@ -44,7 +44,7 @@ Then add the facade to your aliases array:
   'Mattermost' => Gnello\Mattermost\Laravel\Facades\Mattermost::class,
 ],
 ```
-You did! Now consider updating your version of Laravel!
+You did it! Now consider updating your version of Laravel!
 
 ## Configuration
 Edit the file `config/mattermost.php` as you prefer.
