@@ -26,7 +26,7 @@ After installation launch the command:
 ```
 to publish the configuration file. You'll find it at config/mattermost.php
 
-If you're on Laravel 5.5 or higher you can wipe the sweat on your forehead: you're done here.  
+If you're on Laravel 5.5 or higher you can wipe the sweat on your forehead: you're done here! 
 
 ### Laravel 5.4 or lower
 Otherwise don't give up, you're almost there! Do this:  
