@@ -36,5 +36,5 @@
                 "Mattermost": "Gnello\\Mattermost\\Laravel\\Facades\\Mattermost"
             }
         }
-    },
+    }
 }
