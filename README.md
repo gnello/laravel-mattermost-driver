@@ -35,8 +35,8 @@ Read more about how to install and use Composer on your local machine [here][3].
 - luca@gnello.com
 
 [3]: https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx
-[4]: https://github.com/gnello/php-mattermost-driver
-[5]: https://scrutinizer-ci.com/g/gnello/php-mattermost-driver/badges/quality-score.png?b=master
-[6]: https://scrutinizer-ci.com/g/gnello/php-mattermost-driver/?branch=master
-[7]: https://poser.pugx.org/gnello/php-mattermost-driver/v/stable
-[8]: https://packagist.org/packages/gnello/php-mattermost-driver
+[4]: https://github.com/gnello/laravel-mattermost-driver
+[5]: https://scrutinizer-ci.com/g/gnello/laravel-mattermost-driver/badges/quality-score.png?b=master
+[6]: https://scrutinizer-ci.com/g/gnello/laravel-mattermost-driver/?branch=master
+[7]: https://poser.pugx.org/gnello/laravel-mattermost-driver/v/stable
+[8]: https://packagist.org/packages/gnello/laravel-mattermost-driver
