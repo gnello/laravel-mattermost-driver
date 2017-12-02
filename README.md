@@ -25,6 +25,24 @@ After installation launch the command:
 ```
 to publish the configuration file. You'll find it at config/mattermost.php
 
+If you're on Laravel 5.5 or higher you can wipe the sweat on your forehead: you're done here.  
+Otherwise don't give up, you're almost there! Do this:  
+Add the `Gnello\Mattermost\Laravel\MattermostServiceProvider` provider to the providers array in config/app.php:  
+```
+'providers' => [
+  //..
+  Gnello\Mattermost\Laravel\MattermostServiceProvider::class,
+],
+```  
+Then add the facade to your aliases array:
+```
+'aliases' => [
+  //..
+  'Mattermost' => Gnello\Mattermost\Laravel\Facades\Mattermost::class,
+],
+```
+You did! Now consider updating your version of Laravel!
+
 ## Configuration
 Edit the file `config/mattermost.php` as you prefer.
 
