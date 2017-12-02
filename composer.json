@@ -1,0 +1,40 @@
+{
+    "name": "gnello/laravel-mattermost-driver",
+    "description": "Laravel integration of php-mattermost-driver",
+    "keywords": ["mattermost", "chat"],
+    "homepage": "https://github.com/gnello/laravel-mattermost-driver",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luca Agnello",
+            "email": "luca@gnello.com"
+        }
+    ],
+    "support": {
+        "email": "luca@gnello.com",
+        "issues": "https://github.com/gnello/laravel-mattermost-driver/issues"
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.5.*",
+        "gnello/php-mattermost-driver": "^2.3"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Gnello\\Mattermost\\Laravel": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gnello\\Mattermost\\Laravel\\MattermostServiceProvider"
+            ],
+            "aliases": {
+                "Mattermost": "Gnello\\Mattermost\\Laravel\\Facades\\Mattermost"
+            }
+        }
+    },
+}
