@@ -19,6 +19,7 @@ composer require gnello/laravel-mattermost-driver
 
 Read more about how to install and use Composer on your local machine [here][3].
 
+### Laravel
 After installation launch the command:
 ```
  php artisan vendor:publish
