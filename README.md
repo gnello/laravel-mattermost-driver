@@ -68,7 +68,7 @@ Edit the file `config/mattermost.php` as you prefer.
 - luca@gnello.com
 
 [3]: https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx
-[4]: https://github.com/gnello/laravel-mattermost-driver
+[4]: https://github.com/gnello/php-mattermost-driver
 [5]: https://scrutinizer-ci.com/g/gnello/laravel-mattermost-driver/badges/quality-score.png?b=master
 [6]: https://scrutinizer-ci.com/g/gnello/laravel-mattermost-driver/?branch=master
 [7]: https://poser.pugx.org/gnello/laravel-mattermost-driver/v/stable
