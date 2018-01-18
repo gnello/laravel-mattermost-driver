@@ -16,7 +16,7 @@
     },
     "require": {
         "php": ">=7.0.0",
-        "laravel/framework": "5.5.*",
+        "illuminate/support": "^5.0",
         "gnello/php-mattermost-driver": "^2.3"
     },
     "require-dev": {
