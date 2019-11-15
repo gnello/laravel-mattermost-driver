@@ -19,9 +19,6 @@
         "illuminate/support": "^5.0||^6.0",
         "gnello/php-mattermost-driver": "^2.3"
     },
-    "require-dev": {
-
-    },
     "autoload": {
         "psr-4": {
             "Gnello\\Mattermost\\Laravel\\": "src/"

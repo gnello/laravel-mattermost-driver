@@ -6,9 +6,6 @@ A Laravel integration for the package [php-mattermost-driver][4].
 
 Please referer to the [php-mattermost-driver][4] package for further information on using this application.
 
-## Requirements
-Laravel 5
-
 ## Installation
 ### Composer
 The best way to install php-mattermost-driver is to use Composer:
