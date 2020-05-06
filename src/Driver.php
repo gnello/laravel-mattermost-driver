@@ -123,14 +123,19 @@ class Driver
     {
         $config = $this->configuration($name);
 
-        $container = new Container([
+        $options = [
             'driver' => [
                 'url' => $config['host'],
                 'login_id' => $config['login'],
                 'password' => $config['password'],
             ],
             'guzzle' => $config['guzzle']
-        ]);
+        ];
+        if (isset($config['scheme'])) {
+            $options['driver']['scheme'] = $config['scheme'];
+        }
+        
+        $container = new Container($options);
 
         $driver = new Mattermost($container);
         $driver->authenticate();
