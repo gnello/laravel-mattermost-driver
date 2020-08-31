@@ -41,9 +41,17 @@ return [
     'servers' => [
 
         'default' => [
+            'auth' => env('MATTERMOST_AUTH', 'default'),
             'host' => env('MATTERMOST_HOST', 'localhost'),
             'login' => env('MATTERMOST_LOGIN', 'gnello'),
             'password' => env('MATTERMOST_PASSWORD', '1234'),
+            'guzzle' => []
+        ],
+        
+        'bearer' => [
+            'auth' => env('MATTERMOST_AUTH', 'bearer'),
+            'host' => env('MATTERMOST_HOST', 'localhost'),
+            'token' => env('MATTERMOST_TOKEN', 'bearertoken'),
             'guzzle' => []
         ],
 
