@@ -122,15 +122,31 @@ class Driver
     protected function makeConnection($name)
     {
         $config = $this->configuration($name);
+             
+        switch (strtoupper($config['auth']))
+        {
+            case 'BEARER':
+                $options = [
+                    'driver' => [
+                        'url' => $config['host'],
+                        'token' => $config['token'],
+                    ],
+                    'guzzle' => $config['guzzle']
+                ];
 
-        $options = [
-            'driver' => [
-                'url' => $config['host'],
-                'login_id' => $config['login'],
-                'password' => $config['password'],
-            ],
-            'guzzle' => $config['guzzle']
-        ];
+                break;
+            default:
+                $options = [
+                    'driver' => [
+                        'url' => $config['host'],
+                        'login_id' => $config['login'],
+                        'password' => $config['password'],
+                    ],
+                    'guzzle' => $config['guzzle']
+                ];
+                break;
+        }
+        
         if (isset($config['scheme'])) {
             $options['driver']['scheme'] = $config['scheme'];
         }
