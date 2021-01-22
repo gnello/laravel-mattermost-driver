@@ -1,6 +1,7 @@
 # laravel-mattermost-driver
 
-[![Latest Stable Version][7]][8] [![Scrutinizer Code Quality][5]][6]
+[![Latest Stable Version][7]][8] [![Scrutinizer Code Quality][5]][6] [![Total Downloads][9]][10]
+
 
 A Laravel integration for the package [php-mattermost-driver][4].  
 
@@ -67,3 +68,5 @@ Edit the file `config/mattermost.php` as you prefer.
 [6]: https://scrutinizer-ci.com/g/gnello/laravel-mattermost-driver/?branch=master
 [7]: https://poser.pugx.org/gnello/laravel-mattermost-driver/v/stable
 [8]: https://packagist.org/packages/gnello/laravel-mattermost-driver
+[9]: https://poser.pugx.org/gnello/laravel-mattermost-driver/downloads
+[10]: https://packagist.org/packages/gnello/laravel-mattermost-driver
