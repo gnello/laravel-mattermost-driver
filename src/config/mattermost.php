@@ -49,7 +49,7 @@ return [
             'host' => env('MATTERMOST_HOST', 'localhost'),
             'login' => env('MATTERMOST_LOGIN', 'gnello'),
             'password' => env('MATTERMOST_PASSWORD', '1234'),
-            'scheme' => env('MATTERMOST_SCHEME', 'http'),
+            'scheme' => env('MATTERMOST_SCHEME', 'https'),
             'guzzle' => []
         ],
         
@@ -57,7 +57,7 @@ return [
             'auth' => env('MATTERMOST_AUTH', 'bearer'),
             'host' => env('MATTERMOST_HOST', 'localhost'),
             'token' => env('MATTERMOST_TOKEN', 'bearertoken'),
-            'scheme' => env('MATTERMOST_SCHEME', 'http'),
+            'scheme' => env('MATTERMOST_SCHEME', 'https'),
             'guzzle' => []
         ],
 
